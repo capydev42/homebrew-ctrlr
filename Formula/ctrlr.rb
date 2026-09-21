@@ -3,28 +3,28 @@
 class Ctrlr < Formula
   desc "Turn your shell history into a searchable command palette"
   homepage "https://github.com/capydev42/ctrlr"
-  version "0.11.2"
+  version "0.11.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/capydev42/ctrlr/releases/download/v0.11.2/ctrlr-aarch64-apple-darwin.tar.gz"
-      sha256 "d0fae9fb0ab98cb05f1fdb0752a7874f8fb267f5f2c91c1a5dfb21fa6f43e455"
+      url "https://github.com/capydev42/ctrlr/releases/download/v0.11.3/ctrlr-aarch64-apple-darwin.tar.gz"
+      sha256 "2774d3ceb2df199e449d8d018209c85f505c594ae3ce2f6ddb212559766d083f"
     end
     on_intel do
-      url "https://github.com/capydev42/ctrlr/releases/download/v0.11.2/ctrlr-x86_64-apple-darwin.tar.gz"
-      sha256 "325d95e42d3839bc095688b53002b4ad4be6e8ed9e36219e084d91209adf8bdb"
+      url "https://github.com/capydev42/ctrlr/releases/download/v0.11.3/ctrlr-x86_64-apple-darwin.tar.gz"
+      sha256 "ed0806880dd9d63ca6c928fd3a12654d60160a26bbfd8b7b88934ca9ccfb0707"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/capydev42/ctrlr/releases/download/v0.11.2/ctrlr-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "28512ebf964fbfaa949e70c0ccc9bb71d7fea5f55fe253c22a4d65447dd2cd75"
+      url "https://github.com/capydev42/ctrlr/releases/download/v0.11.3/ctrlr-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fc3c1e0e547401f05109e339a9e1002e9124bbc0b23f89774210d78db9201291"
     end
     on_intel do
-      url "https://github.com/capydev42/ctrlr/releases/download/v0.11.2/ctrlr-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ec6a45e586048bf289b3b948999f5e18e5317ac6af7859f74ea2327540772c43"
+      url "https://github.com/capydev42/ctrlr/releases/download/v0.11.3/ctrlr-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a5e8f00f7593fdc567144cd7b84a73348106d96f82cfb1087c558ca4ea7272c0"
     end
   end
 
